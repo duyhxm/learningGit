@@ -20,6 +20,7 @@ void selectionSort(std::vector<int> &a){
     }
 }
 int main(){
-    
+    std::vector<int> a;
+    int n; std::cin>>n;
     system("pause>0");
 }
