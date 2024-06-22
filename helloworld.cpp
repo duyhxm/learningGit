@@ -19,6 +19,11 @@ void selectionSort(std::vector<int> &a){
         }
     }
 }
+void tranversal(std::vector<int> a){
+    for(int x : a){
+        std::cout << x << " ";
+    }
+}
 int main(){
     std::vector<int> a;
     int n; std::cin>>n;
