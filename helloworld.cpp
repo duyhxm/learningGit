@@ -24,6 +24,13 @@ void tranversal(std::vector<int> a){
         std::cout << x << " ";
     }
 }
+bool findFirstElements(std::vector<int> a, int num){
+    for(int x: a){
+        if(x == num)
+            return true;
+    }
+    return false;
+}
 int main(){
     std::vector<int> a;
     int n; std::cin>>n;
